@@ -3,7 +3,7 @@ Simple script to get json-ld data, intended to get recipe data from a given URL.
 
 # Prereqs
 1. Clone this repo.
-2. `npm install`
+2. Run `npm install` inside this repo.
 
 # Usage
 `node scrape.mjs <url>`
