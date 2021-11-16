@@ -7,7 +7,7 @@ Simple script to get json-ld data, intended to get recipe data from a given URL.
 
 # Usage
 `node scrape.mjs <url>`
-- If <url> does not contain json-ld data, nothing will be printed.
+- If the url's html does not contain json-ld data, this script will not print anything interesting.
 
 # Word of Caution
 Sometimes the html will have several scripts of json-ld. This script will only find one occurence of a json-ld script,
